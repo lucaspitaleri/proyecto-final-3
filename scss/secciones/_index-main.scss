@@ -1,0 +1,48 @@
+main {
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    main .contenedor {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+    main #nbafotos {
+      width: 35%;
+      display: flex; }
+    main h2 {
+      background-color: forestgreen; }
+    main p {
+      background-color: gold; }
+    main button {
+      color: darkblue;
+      width: 100%;
+      justify-content: center;
+      display: flex; }
+      main button:hover {
+        color: red; }
+    main .input {
+      color: darkmagenta; }
+      main .input:focus {
+        color: 0; }
+    main .prendas {
+      padding: 45px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row; }
+
+      @mixin carta {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(52, 18, 176);
+        color: crimson;
+      }
+      .card-1{
+        @include carta
+      }
+      .card-2{
+        @include carta
+      }
+      .card-3{
+        @include carta
+      }
