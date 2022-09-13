@@ -1,0 +1,85 @@
+header {
+  background-color: #0f157c;
+  border-color: aqua;
+  color: #df4cfd;
+  text-align: center; }
+
+header h1 {
+  margin: 2px;
+  border: 2px solid white; }
+
+header nav {
+  background-color: #0f157c; }
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+main .contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+main #nbafotos {
+  width: 35%;
+  display: flex; }
+
+main h2 {
+  background-color: forestgreen; }
+
+main p {
+  background-color: gold; }
+
+main button {
+  color: darkblue;
+  width: 100%;
+  justify-content: center;
+  display: flex; }
+
+main button:hover {
+  color: red; }
+
+main .input {
+  color: darkmagenta; }
+
+main .input:focus {
+  color: 0; }
+
+main .prendas {
+  padding: 45px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+.card-1 {
+  display: flex;
+  justify-content: center;
+  background-color: #3412b0;
+  color: crimson; }
+
+.card-2 {
+  display: flex;
+  justify-content: center;
+  background-color: #3412b0;
+  color: crimson; }
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  background-color: #3412b0;
+  color: crimson; }
+
+ul {
+  width: 100%;
+  color: white;
+  display: inline-grid;
+  grid-auto-flow: row;
+  grid-gap: 24px;
+  justify-items: center;
+  margin: auto;
+  background-color: #440eba; }
+
+@media (min-width: 500px) {
+  ul {
+    grid-auto-flow: column; } }
